@@ -1,0 +1,164 @@
+.wrapper,.section_inner,.article_inner{
+  font-size: 24px;
+}
+.wrapper,.article_text{
+  color: #333;
+}
+.header,.title,.footer{
+  width: 100%;
+}
+.contact_button{
+  color: #f2f2f2;
+  text-decoration: none;
+}
+.header{
+  background-color: #ffffff;
+}
+.title{
+  background-color: #f2f2f2;
+}
+.contact_button,.section_block,.mail_form,footer{
+  background-color: #74cfae;
+}
+.header{
+  position: fixed;
+}
+.fa-bolt,.contact_button{
+  margin: 15px 0;
+}
+.fa-bolt{
+  font-size: 40px;
+  float: left;
+}
+.contact_button{
+  font-size: 12px;
+  padding: 14px 12px;
+  float: right;
+}
+.inner{
+  margin: 0 auto;
+  width: 1100px;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.title{
+  padding-top: 46px;
+}
+.main_theme{
+  color: #74cfae;
+}
+.theme{
+  text-align: center;
+  padding: 250px 0 250px 0;
+}
+.main_theme{
+  padding-bottom: 20px;
+  font-size: 90px;
+  font-weight: 700;
+}
+.main_sub_theme{
+  font-size: 30px;
+  color: #c0c0c0;
+}
+.image_iphone{
+  float: left;
+}
+.section_block{
+  text-align: center;
+  height: 295px;
+  color: #f2f2f2;
+  padding-top: 50px;
+}
+.inner_item{
+  word-break: break-all;
+  font-size: 20px;
+  margin-top: 35px;
+}
+.article_block{
+  padding: 60px 0 70px 0;
+}
+.article_inner_box{
+  padding-top: 40px;
+}
+.article_image{
+  float: left;
+	display: block;
+  margin:0 100px 80px 0;
+}
+.article_image:nth-of-type(3n){
+  margin-right: 0;
+}
+.form_block{
+  font-size: 12px;
+  margin-top:10px;
+}
+.article_text{
+  padding-right: 90px;
+  float: left;
+}
+.article_text{
+  font-size: 20px;
+}
+.mail_form{
+  font-size: 12px;
+  padding:14px 20px;
+  color: #ffffff;
+}
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.image{
+  float: left;
+}
+.font{
+  width: 122px;
+  float: left;
+}
+.mail_form{
+  text-decoration: none;
+}
+.section_box{
+  color: #f2f2f2;
+  background-color: #4e4e4e;
+  padding-bottom: 100px;
+}
+.nav_black,.article_inner,.section_block{
+  text-align: center;
+}
+.image,.font{
+  padding-right: 180px;
+}
+.image:last-child{
+  padding-right: 0;
+}
+.font:last-child{
+  padding-right: 0;
+}
+.font{
+  font-size: 16px;
+}
+.nav_black{
+  padding: 200px;
+  text-align: center;
+}
+.fa{
+  color: #74cfae;
+  width: 185px;
+  box-sizing: border-box;
+  transition: all 0.3s;
+  padding: 20px 25px;
+}
+.fa:hover{
+  padding: 20px 25px;
+  background-color: #ffffff;
+}
+.footer{
+  text-align: end;
+  color: #ffffff;
+  padding: 20px 0 25px 0;
+}
