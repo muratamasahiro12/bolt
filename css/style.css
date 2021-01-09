@@ -7,6 +7,12 @@
 .header,.title,.footer{
   width: 100%;
 }
+.wrapper{
+  font-family: Lato;
+}
+.section_inner,.article_inner{
+  font-family: Raleway;
+}
 .contact_button{
   color: #f2f2f2;
   text-decoration: none;
@@ -34,6 +40,9 @@
   font-size: 12px;
   padding: 14px 12px;
   float: right;
+}
+.contact_button:hover{
+  color: #333;
 }
 .inner{
   margin: 0 auto;
@@ -72,6 +81,9 @@
   color: #f2f2f2;
   padding-top: 50px;
 }
+.section_inner{
+  padding:20px 0 70px 0;
+}
 .inner_item{
   word-break: break-all;
   font-size: 20px;
@@ -106,6 +118,10 @@
   font-size: 12px;
   padding:14px 20px;
   color: #ffffff;
+  text-decoration: none;
+}
+.mail_form:hover{
+  color: #333;
 }
 .clearfix::after{
   content: "";
@@ -118,9 +134,6 @@
 .font{
   width: 122px;
   float: left;
-}
-.mail_form{
-  text-decoration: none;
 }
 .section_box{
   color: #f2f2f2;
@@ -152,6 +165,7 @@
   box-sizing: border-box;
   transition: all 0.3s;
   padding: 20px 25px;
+  cursor : pointer;
 }
 .fa:hover{
   padding: 20px 25px;
