@@ -72,12 +72,13 @@
   font-size: 30px;
   color: #c0c0c0;
 }
-.image_iphone{
-  float: left;
+.section_body{
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
 }
 .section_block{
   text-align: center;
-  height: 295px;
   color: #f2f2f2;
   padding-top: 50px;
 }
@@ -91,6 +92,11 @@
 }
 .article_block{
   padding: 60px 0 70px 0;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 .article_inner_box{
   padding-top: 40px;
@@ -110,8 +116,6 @@
 .article_text{
   padding-right: 90px;
   float: left;
-}
-.article_text{
   font-size: 20px;
 }
 .mail_form{
@@ -123,17 +127,12 @@
 .mail_form:hover{
   color: #333;
 }
-.clearfix::after{
-  content: "";
-  display: block;
-  clear: both;
-}
-.image{
-  float: left;
-}
 .font{
   width: 122px;
-  float: left;
+  font-size: 16px;
+}
+.image_box,.section_font{
+  display: flex;
 }
 .section_box{
   color: #f2f2f2;
@@ -144,16 +143,13 @@
   text-align: center;
 }
 .image,.font{
-  padding-right: 180px;
+  padding-left: 180px;
 }
-.image:last-child{
-  padding-right: 0;
+.image:first-child{
+  padding-left: 0;
 }
-.font:last-child{
-  padding-right: 0;
-}
-.font{
-  font-size: 16px;
+.font:first-child{
+  padding-left: 0;
 }
 .nav_black{
   padding: 200px;
