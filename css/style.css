@@ -1,4 +1,4 @@
-.wrapper,.section_inner,.article_inner{
+.wrapper,.section_inner,.article_inner,.section_title{
   font-size: 24px;
 }
 .wrapper,.article_text{
@@ -10,19 +10,15 @@
 .wrapper{
   font-family: Lato;
 }
-.section_inner,.article_inner{
+.section_inner,.article_inner,.section_title{
   font-family: Raleway;
-}
-.contact_button{
-  color: #f2f2f2;
-  text-decoration: none;
 }
 .header{
   background-color: #ffffff;
 }
 main{
   background-color: #f2f2f2;
-  padding-top: 46px;
+  padding-top: 69.94px;
 }
 .contact_button,.section_block,.mail_form,footer{
   background-color: #74cfae;
@@ -39,6 +35,8 @@ main{
   font-size: 12px;
   padding: 14px 12px;
   float: right;
+  color: #f2f2f2;
+  text-decoration: none;
 }
 .contact_button:hover{
   color: #333;
@@ -74,9 +72,7 @@ main{
   color: #f2f2f2;
   padding-top: 50px;
 }
-.section_inner{
-  margin-top: 20px;
-}
+
 .inner_item{
   word-break: break-all;
   font-size: 20px;
@@ -84,11 +80,6 @@ main{
 }
 .article_block{
   padding: 60px 0 70px 0;
-}
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
 }
 .article_inner_box{
   margin-top: 40px;
@@ -98,6 +89,7 @@ main{
   opacity: 0.7;
 	display: block;
   margin:0 0 80px 100px;
+  transition: all 0.3s;
 }
 .article_image:nth-of-type(3n-2){
   margin-left: 0;
@@ -114,6 +106,7 @@ main{
 .article_text{
   padding-right: 90px;
   font-size: 20px;
+  text-align: center;
 }
 .mail_form{
   font-size: 12px;
@@ -129,13 +122,6 @@ main{
   text-align: center;
   font-size: 16px;
 }
-.image_box,.section_font{
-  display: flex;
-  justify-content: space-around;
-}
-.image_box{
-  margin-top:70px;
-}
 .section_box{
   color: #f2f2f2;
   background-color: #4e4e4e;
@@ -146,10 +132,14 @@ main{
 }
 .section_box{
   color: #f2f2f2;
-  padding-top: 50px;
+  padding-top: 70px;
 }
 .section_box_inner{
   display: flex;
+  margin-top:70px;
+}
+.section_title{
+  text-align: center;
 }
 .image_picture{
   margin-left: 180px;
@@ -157,12 +147,8 @@ main{
 .image_picture:first-child{
   margin-left: 0;
 }
-.image_picture:first-child{
-  margin-left: 0;
-}
 .nav_black{
-  padding: 200px;
-  text-align: center;
+  padding: 200px 0;
 }
 .fa{
   color: #74cfae;
@@ -172,6 +158,7 @@ main{
   padding: 20px 25px;
   cursor : pointer;
   text-decoration: none;
+  display:block;
 }
 .fa:hover{
   background-color: #ffffff;
@@ -181,4 +168,3 @@ main{
   color: #ffffff;
   padding: 20px 0 25px 0;
 }
-
