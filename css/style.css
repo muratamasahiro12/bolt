@@ -16,7 +16,7 @@
 .body {
   font-family: Lato;
 }
-.whatwecando,.ourlatestwork,.ourskills,.bolttheme {
+.font_ra {
   font-family: Raleway;
 }
 .header {
@@ -95,6 +95,7 @@ main {
   margin-top: 40px;
 }
 .olw_image {
+  display: inline-block;
   opacity: 0.7;
   transition: all 0.3s;
 }
@@ -164,16 +165,13 @@ main {
   display: flex;
   justify-content: center;
 }
-.ic_list {
-  box-sizing: border-box;
-}
 .fa {
   color: #74cfae;
   transition: all 0.3s;
   padding: 20px 25px;
   cursor : pointer;
   text-decoration: none;
-  width: 185px;
+  width: 135px;
 }
 .fa:hover {
   background-color: #ffffff;
