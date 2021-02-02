@@ -16,7 +16,7 @@
 .body {
   font-family: Lato;
 }
-.whatwecando,.ourlatestwork,.ourskills {
+.whatwecando,.ourlatestwork,.ourskills,.bolttheme {
   font-family: Raleway;
 }
 .header {
@@ -95,26 +95,28 @@ main {
   margin-top: 40px;
 }
 .olw_image {
-  float: left;
   opacity: 0.7;
-	display: block;
-  margin:80px 0 0 100px;
   transition: all 0.3s;
 }
-.olw_image:nth-of-type(-n+3) {
+.olw_list:nth-of-type(-n+3) {
   margin-top: 0;
 }
-.olw_image:nth-of-type(3n-2) {
+.olw_list:nth-of-type(3n-2) {
   margin-left: 0;
 }
 .olw_image:hover {
   opacity: 0.3;
 }
+.olw_list{
+  float: left;
+  margin:80px 0 0 100px;
+}
 .form_block {
   font-size: 12px;
   margin-top:90px;
   display: flex;
-  justify-content: center
+  justify-content: center;
+  align-items: center;
 }
 .form_text {
   margin-right: 90px;
@@ -125,7 +127,6 @@ main {
 .mail_form {
   padding:14px 20px;
   color: #ffffff;
-  line-height: 27.0315px;
 }
 .mail_form:hover {
   color: #333;
@@ -159,15 +160,20 @@ main {
 .icon_block {
   padding: 200px 0;
 }
+.ic_inner {
+  display: flex;
+  justify-content: center;
+}
+.ic_list {
+  box-sizing: border-box;
+}
 .fa {
   color: #74cfae;
-  width: 185px;
-  box-sizing: border-box;
   transition: all 0.3s;
   padding: 20px 25px;
   cursor : pointer;
   text-decoration: none;
-  display:block;
+  width: 185px;
 }
 .fa:hover {
   background-color: #ffffff;
