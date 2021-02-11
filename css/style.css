@@ -2,7 +2,7 @@
 .wrapper,.whatwecando,.ourlatestwork,.ourskills {
   font-size: 24px;
 }
-.wrapper,.form_text{ 
+.wrapper,.form_text{
   color: #333;
 }
 .header,.main_title,.footer {
@@ -124,9 +124,9 @@ main {
   margin-left: 0;
 }
 .olw_image:hover {
-  opacity: 0.3;
+  opacity: 1;
 }
-.olw_list{
+.olw_list {
   float: left;
   margin:80px 0 0 100px;
 }
@@ -183,13 +183,15 @@ main {
   display: flex;
   justify-content: center;
 }
-.fa {
+.fa_btn {
   color: #74cfae;
-  transition: all 0.3s;
   padding: 20px 25px;
-  cursor : pointer;
   text-decoration: none;
   width: 135px;
+}
+.ic_list {
+  transition: all 0.3s;
+  cursor : pointer;
 }
 .ic_list:hover {
   background-color: #ffffff;
@@ -208,7 +210,7 @@ main {
   width: 97%;
 }
 .wrapper {
-  word-wrap: break-word;
+  word-wrap:break-word;
   overflow:hidden;
 }
 .wwc_body {
@@ -227,7 +229,6 @@ main {
   width: 78%;
 }
 .olw_list {
-  opacity: 1;
   margin: 0 auto;
   text-align: center;
   float: none;
@@ -236,8 +237,11 @@ main {
 .olw_list:nth-of-type(3n-2) {
   margin: auto;
 }
-.olw_list:nth-of-type(3n) {
-  margin-bottom: 80px;
+.olw_list:nth-of-type(3n+1) {
+  margin-top: 80px;
+}
+.form_block {
+  margin-top: 80px;
 }
 .form_text {
   margin:auto;
@@ -262,6 +266,9 @@ main {
 .image_picture {
   text-align: center;
   margin: 88px 0 0 0;
+}
+.image_picture:first-child {
+  margin-top:0;
 }
 }
 @media screen and (max-width: 767px) {
