@@ -187,7 +187,8 @@ main {
   color: #74cfae;
   padding: 20px 25px;
   text-decoration: none;
-  width: 135px;
+  width: 185px;
+  box-sizing: border-box;
 }
 .ic_list {
   transition: all 0.3s;
@@ -210,11 +211,11 @@ main {
   width: 97%;
 }
 .wrapper {
-  word-wrap:break-word;
-  overflow:hidden;
+  word-wrap: break-word;
+  overflow: hidden;
 }
 .wwc_body {
-  display:block;
+  display: block;
 }
 .image_iphone {
   margin: auto;
@@ -244,7 +245,7 @@ main {
   margin-top: 80px;
 }
 .form_text {
-  margin:auto;
+  margin: auto;
 }
 .wwc_block {
   padding-bottom: 25px;
@@ -268,7 +269,7 @@ main {
   margin: 88px 0 0 0;
 }
 .image_picture:first-child {
-  margin-top:0;
+  margin-top: 0;
 }
 }
 @media screen and (max-width: 767px) {
@@ -290,12 +291,18 @@ main {
   display: block;
 }
 .form_text {
-  width:initial;
+  width: initial;
 }
 .icon_block {
-  padding:50px 15px;
+  padding: 50px 0;
+}
+.fa_btn {
+  width: 100%;
 }
 .ic_inner {
   display: block;
+}
+.ic_list {
+  margin: 0 15px;
 }
 }
