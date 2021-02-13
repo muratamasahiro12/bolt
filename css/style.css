@@ -19,10 +19,6 @@
 .font_ra {
   font-family: Raleway;
 }
-.header {
-  background-color: #ffffff;
-  z-index: 1;
-}
 main {
   background-color: #f2f2f2;
   padding-top: 69.94px;
@@ -35,6 +31,8 @@ main {
   position: fixed;
   top: 0;
   left: 0;
+  background-color: #ffffff;
+  z-index: 1;
 }
 .fa-bolt {
   font-size: 40px;
@@ -53,7 +51,6 @@ main {
   float : right;
   display: none;
   padding : 10px;
-  height: 21px;
   width: 40px;
   border : 1px solid #dddddd;
   border-radius: 4px;
@@ -301,8 +298,5 @@ main {
 }
 .ic_inner {
   display: block;
-}
-.ic_list {
-  margin: 0 15px;
 }
 }
